@@ -1,8 +1,16 @@
 aid: jambo
 name: Jambo
-description: 'Jambo is a company surfaced as a portfolio company of pantera-capital, paradigm and added
-  to the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Jambo is a mobile infrastructure company bringing blockchain and decentralized
+  finance to mainstream users across emerging markets, led by its JamboPhone, a low-cost
+  Web3-enabled Android smartphone with a built-in multi-chain wallet, hardware security,
+  and biometric authentication. The Jambo ecosystem spans JamboWallet (a native multi-chain
+  crypto wallet), JamboEarn (a gamified quest and rewards platform), and JamboPlay (a
+  decentralized app store for games and digital experiences), plus the Jarvis product.
+  The company reports 11M+ active wallets, over 1 million JamboPhones sold across 128+
+  countries, and 60+ ecosystem partners including Coinbase, Solana, Tether, and OKX. Jambo
+  raised a $30M Series A led by Paradigm with participation from Pantera Capital and others.
+  Sector: crypto. As of this profile Jambo publishes a consumer product and whitepaper
+  surface but no public developer/API, SDK, or documentation program.'
 url: https://raw.githubusercontent.com/api-evangelist/jambo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +19,32 @@ x-backed-by:
 - paradigm
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.jambo.technology/images/jambo-logo.png
 tags:
 - Company
 - Crypto
+- Web3
+- Blockchain
+- Mobile
+- Wallet
+- Cryptocurrency
+- DeFi
+- Smartphone
+- Financial Inclusion
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +54,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.jambo.technology/
+- type: Whitepaper
+  url: https://jambo.gitbook.io/whitepaper/
+- type: Ecosystem
+  url: https://www.jambo.technology/ecosystem
+- type: Store
+  url: https://jambophone.xyz/
+- type: Twitter
+  url: https://x.com/JamboTechnology
+- type: Telegram
+  url: https://t.me/jambotechnology
+- type: YouTube
+  url: https://www.youtube.com/@JamboTechnology
+- type: Instagram
+  url: https://www.instagram.com/jambotechnology/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
